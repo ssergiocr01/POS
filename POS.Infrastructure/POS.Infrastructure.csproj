@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Persistences\Context\" />
+    <Folder Include="Persistences\Interfaces\" />
+    <Folder Include="Persistences\Repositories\" />
+  </ItemGroup>
+
+</Project>

@@ -7,6 +7,6 @@
         public int? StateFilter { get; set; } = null;
         public string? StartDate { get; set; } = null;
         public string? EndDate { get; set; } = null;
-        public bool? Download { get; set; }
+        public bool? Download { get; set; } = false;
     }
 }

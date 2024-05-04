@@ -1,3 +1,4 @@
+using POS.Application.Extensions;
 using POS.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,7 @@ builder.Services.AddSwaggerGen();
 
 // Add services to the container
 builder.Services.AddInjectionInfrastructure(Configuration);
+builder.Services.AddInjectionApplication(Configuration);
 
 var app = builder.Build();
 

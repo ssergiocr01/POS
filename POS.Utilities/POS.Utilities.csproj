@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Static\" />
+    <Folder Include="Static\" />
   </ItemGroup>
 
 </Project>
